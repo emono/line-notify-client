@@ -1,4 +1,4 @@
-require "client/version"
+require "line_notify_client/version"
 module Line
   module Notify
     module Client
