@@ -4,6 +4,6 @@ RSpec.describe Line::Notify::Client do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(Line::Notify::Client.greet).to eq("Hello")
   end
 end
