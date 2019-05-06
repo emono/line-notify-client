@@ -1,10 +1,11 @@
-require "line/notify/client/version"
-
+require "version"
 module Line
   module Notify
     module Client
       class Error < StandardError; end
-      # Your code goes here...
+      def self.greet
+        "Hello"
+      end
     end
   end
 end
