@@ -18,18 +18,25 @@ Or install it yourself as:
 
     $ gem install line-notify-client
 
+## Set up
+- require library
+```rb
+# snake_case
+require 'line_notify_client'
+```
+
 ## Usage
 - token use argument
 ```rb
-    token = "hoge1234"
-    message = "hogehoge"
-    Line::Notify::Client.message(token: token, message: message)
+token = "hoge1234"
+message = "hogehoge"
+Line::Notify::Client.message(token: token, message: message)
 ```
 - token use environment variable
 ```bash
-    # add LINE_NOTIFY_TOKEN
-    $ vi ~/.bash_profile
-    LINE_NOTIFY_TOKEN="hoge1234"
+# add LINE_NOTIFY_TOKEN
+$ vi ~/.bash_profile
+LINE_NOTIFY_TOKEN="hoge1234"
 ```
 ```rb
     Line::Notify::Client.message(message: message)
