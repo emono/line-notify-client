@@ -22,7 +22,7 @@ Or install it yourself as:
 - require library
 ```rb
 # snake_case
-require 'line_notify_client'
+require 'line-notify-client'
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ $ vi ~/.bash_profile
 LINE_NOTIFY_TOKEN="hoge1234"
 ```
 ```rb
-    Line::Notify::Client.message(message: message)
+Line::Notify::Client.message(message: message)
 ```
 ## Development
 
