@@ -1,8 +1,6 @@
 # Line::Notify::Client
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+- Api Client for LineNotify
+    - https://notify-bot.line.me/ja/
 
 ## Installation
 
@@ -21,9 +19,21 @@ Or install it yourself as:
     $ gem install line-notify-client
 
 ## Usage
-
-TODO: Write usage instructions here
-
+- token use argument
+```rb
+    token = "hoge1234"
+    message = "hogehoge"
+    Line::Notify::Client.message(token: token, message: message)
+```
+- token use environment variable
+```bash
+    # add LINE_NOTIFY_TOKEN
+    $ vi ~/.bash_profile
+    LINE_NOTIFY_TOKEN="hoge1234"
+```
+```rb
+    Line::Notify::Client.message(message: message)
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
