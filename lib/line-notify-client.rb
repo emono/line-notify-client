@@ -1,6 +1,6 @@
 require 'net/http'
 require 'uri'
-require "line_notify_client/api_client"
+require "line-notify-client/api_client"
 
 module Line
   module Notify

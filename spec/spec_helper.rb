@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "line_notify_client"
+require "line-notify-client"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
