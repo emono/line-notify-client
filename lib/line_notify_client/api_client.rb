@@ -2,6 +2,8 @@ require 'net/http'
 require 'uri'
 
 class ApiClient
+  class ArgumentError < StandardError; end
+
   attr_reader :http, :uri
   def initialize
     @uri = URI.parse("https://notify-api.line.me/api/notify")
@@ -11,6 +13,8 @@ class ApiClient
   end
 
   def message(token, message)
+    token ||= ENV['LINE_NOTIFY_TOKEN']
+    raise ArgumentError if token.nil? || message.nil?
     req = Net::HTTP::Post.new uri
     req["Authorization"] = "Bearer #{token}"
     req.set_form_data(message: message)
