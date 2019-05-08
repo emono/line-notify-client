@@ -1,4 +1,5 @@
 # Line::Notify::Client
+- https://rubygems.org/gems/line-notify-client
 - Api Client for LineNotify
     - https://notify-bot.line.me/ja/
 
