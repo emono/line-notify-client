@@ -21,7 +21,6 @@ Or install it yourself as:
 ## Set up
 - require library
 ```rb
-# snake_case
 require 'line-notify-client'
 ```
 
