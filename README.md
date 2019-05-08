@@ -3,7 +3,7 @@
 - Api Client for LineNotify
     - https://notify-bot.line.me/ja/
 - Send line message
-https://github.com/emono/line-notify-client/issues/1
+https://user-images.githubusercontent.com/17827474/57343780-a7b5b700-717f-11e9-8a4f-cb7eae322600.jpg
 
 ## Installation
 
