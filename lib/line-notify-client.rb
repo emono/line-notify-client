@@ -3,7 +3,7 @@ require 'uri'
 require "line-notify-client/api_client"
 
 module Line
-  module line-notify-client
+  module Notify
     module Client
       def self.message(token: nil, message: nil)
         client = ApiClient.new
