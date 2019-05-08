@@ -31,17 +31,18 @@ require 'line-notify-client'
 ## Usage
 - token use argument
 ```rb
-token = "hoge1234"
-message = "hogehoge"
+token = "hoge1234" # line_notify_access_token
+message = "hogehoge" # send_message
 Line::Notify::Client.message(token: token, message: message)
 ```
 - token use environment variable
 ```bash
-# add LINE_NOTIFY_TOKEN
+# add line_notify_access_token
 $ vi ~/.bash_profile
 LINE_NOTIFY_TOKEN="hoge1234"
 ```
 ```rb
+message = "hogehoge" # send_message
 Line::Notify::Client.message(message: message)
 ```
 ## Development
