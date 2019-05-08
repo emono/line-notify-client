@@ -1,16 +1,16 @@
 RSpec.describe Line::Notify::Client do
 
   it "has a version number" do
-    expect(Line::Notify::Client::VERSION).to eq "1.0.2"
+    expect(Line::Notify::Client::VERSION).to eq "1.0.3"
   end
 
   describe ".message" do 
     context 'normal message' do
       subject { Line::Notify::Client.message(message: 'message') }
-      let(:res) { "{\"status\":200,\"message\":\"ok\"}" }
+      let(:response_code) { 200 }
 
       it "response is 200" do
-        expect(subject).to eq res
+        expect(subject["status"]).to eq response_code
       end
     end
 

@@ -4,7 +4,7 @@ require "line-notify-client/api_client"
 
 module Line
   module Notify
-    module Client
+    module Notify
       def self.message(token: nil, message: nil)
         client = ApiClient.new
         client.message(token, message)

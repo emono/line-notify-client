@@ -1,5 +1,6 @@
 require 'net/http'
 require 'uri'
+require 'json'
 
 class ApiClient
   class ArgumentError < StandardError; end
@@ -19,6 +20,6 @@ class ApiClient
     req["Authorization"] = "Bearer #{token}"
     req.set_form_data(message: message)
     res = http.start { |http| http.request req }
-    return res.body
+    JSON.parse(res.body)
   end
 end

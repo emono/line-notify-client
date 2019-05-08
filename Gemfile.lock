@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    line-notify-client (1.0.2)
+    line-notify-client (1.0.3)
 
 GEM
   remote: https://rubygems.org/
