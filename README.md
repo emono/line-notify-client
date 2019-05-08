@@ -4,8 +4,6 @@
     - https://notify-bot.line.me/ja/
 - Send line message
 
-https://user-images.githubusercontent.com/17827474/57343780-a7b5b700-717f-11e9-8a4f-cb7eae322600.jpg
-
 ## Installation
 
 Add this line to your application's Gemfile:
