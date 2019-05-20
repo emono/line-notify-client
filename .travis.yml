@@ -1,8 +1,10 @@
----
 sudo: false
 language: ruby
 cache: bundler
 rvm:
-  - 2.5.0
+- 2.5.0
 before_install: gem install bundler -v 2.0.1
 script: bundle exec rake spec
+env:
+  global:
+    secure: Ifis6MImVb60OGPxDmEpIO7LXx812QIm2NGwRJ59jb6zKx5/U1zG+0mSM+ZwKZWmrvWisHMbmpmMv37Kl8sTp0Pd2djRgTJ24PmmxKWZxVuPeU7RmWcWhbLoc4iAQ58UfOaGlQ0SQRtqOKDOdyInPxnQ7ZXJ9UuD6qs2vBgGSx0CacVX9W1tQVKMstYW4Z7oVmfIsNmSs2ZObtk53WFw+1DPre/PH7qxlwn29toA9pPQzjVFeYNAiQWq353n5QvOm+FGkR/9vWnpzeRrnTB/Tzz61BHY6Cu5gMeitiHzgV4P/Y+ZpPzp0WxuWdDhOXtjFo8hW0lNh+C2/A9iTHeY79FBfvEN+g77vunwAQ75VyWKxUbf02M1q3B5sU/uLmTzkQEdZXDoLU+8mKiYYisYo4WGTmXDDJNVc9S8u/cORz89K5S0KtwzfkFyW/2ABGlv5VIrZuUx+Egygmr24UwjDQ8KtOHqPR/Mo89+gDG1vTToPj0SLbeTWFRno5cleZ2j1yifrz9bzFbBcuyQO+oCKoiJEcbtB1LJESXD75dnqtduEH34rZU0+tFlbb0RFNzKWqD59t2zAHUY4lp8UFiAa7K/XV18Obt/mlw2kzIjUUD5/myL1G2ioISW69jljZSvvOr1OOrNl+ZMaDDtPjCZCc4INP+XazO3MzfbC23Kjw0=
