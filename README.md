@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/emono/line-notify-client.svg?branch=master)](https://travis-ci.org/emono/line-notify-client)
+
 # Line::Notify::Client
 - https://rubygems.org/gems/line-notify-client
 - Api Client for LineNotify

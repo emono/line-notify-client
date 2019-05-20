@@ -1,7 +1,7 @@
 RSpec.describe Line::Notify::Client do
 
   it "has a version number" do
-    expect(Line::Notify::Client::VERSION).to eq "1.0.4"
+    expect(Line::Notify::Client::VERSION).to eq "1.0.5"
   end
 
   describe ".message" do 
