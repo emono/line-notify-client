@@ -1,9 +1,11 @@
+[![Gem Version](https://badge.fury.io/rb/line-notify-client.svg)](https://badge.fury.io/rb/line-notify-client)
 [![Build Status](https://travis-ci.org/emono/line-notify-client.svg?branch=master)](https://travis-ci.org/emono/line-notify-client)
+[![Gem Download](https://img.shields.io/gem/dt/line-notify-client.svg)](https://rubygems.org/gems/line-notify-client)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 # Line::Notify::Client
-- https://rubygems.org/gems/line-notify-client
 - Api Client for LineNotify
-    - https://notify-bot.line.me/ja/
+    - [api_document](https://notify-bot.line.me/ja/)
 - Send line message
 
 ## Installation
